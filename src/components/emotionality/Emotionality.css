@@ -1,0 +1,27 @@
+.progressbar {
+    height: 1000px;
+    position: relative;
+}
+.span {
+    display: block;
+    width: 1000px;
+    position: relative;
+    overflow: hidden;
+
+}
+.img {
+    position: absolute;
+    opacity: 0.5;
+}
+.a1 {
+
+    width: 1000px;
+    position: absolute;
+
+    opacity: 0.5;
+
+}
+.a2 {
+    position: relative;
+    display: block;
+    overflow: hidden;}

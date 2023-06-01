@@ -1,4 +1,5 @@
 import React from 'react';
+import './Informative.css'
 
 function Informative() {
     return (

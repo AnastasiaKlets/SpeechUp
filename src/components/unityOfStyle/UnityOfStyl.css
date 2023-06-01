@@ -1,0 +1,56 @@
+.Pablic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 16px;
+
+    width: 659px;
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+    color: #FFFFFF ;
+
+    background: #2477F4;
+}
+.auther{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 16px;
+
+    width: 541px;
+    height: 26px;
+    border-radius: 0 20px 20px 0;
+    color: #7C8EB5;
+
+    background: #D4DFF4;
+}
+
+.inf{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: 1216px;
+    height: 183px;
+    background: #FFFFFF;
+}
+.p{
+    width: 590px;
+    height: 26px;
+
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #7C8EB5;
+}

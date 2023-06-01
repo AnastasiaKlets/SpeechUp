@@ -5,6 +5,7 @@ import './img/bubbleViolet.svg'
 import './img/bubbleBlue.svg'
 import './img/bubbleRed.svg'
 import { ReactSVG } from 'react-svg'
+import './Eloquence.css'
 
 function Eloquence() {
     return (

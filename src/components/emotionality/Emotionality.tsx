@@ -1,5 +1,6 @@
 import React from 'react';
 import { ReactSVG } from 'react-svg'
+import './Emotionality.css'
 import './img/ok.svg'
 import './img/happy.svg'
 import './img/angry.svg'
