@@ -1,29 +1,37 @@
 import React from 'react';
-import './img/mouthpiese.svg'
-import './img/bubbleYellow.svg'
-import './img/bubbleViolet.svg'
-import './img/bubbleBlue.svg'
-import './img/bubbleRed.svg'
-import { ReactSVG } from 'react-svg'
+import  rupor from './img/mouthpiese.svg'
+import  bubbleYellow from './img/bubbleYellow.svg'
+import bubbleViolet from './img/bubbleViolet.svg'
+import bubbleBlue from './img/bubbleBlue.svg'
+import bubbleRed from './img/bubbleRed.svg'
+import { ReactSVG } from "react-svg";
 import './Eloquence.css'
+import bigCloud from './img/bigCloud.svg'
 
 function Eloquence() {
     return (
         <>
-            <div>
+            <div className="text">
                 <p>
 
                 </p>
             </div>
-            <div>
-                <ReactSVG src="mouthpiese.svg"></ReactSVG>
-
-                <ReactSVG src="bubbleBlue.svg"></ReactSVG>
-                <ReactSVG src="bubbleRed.svg"></ReactSVG>
-                <ReactSVG src="bubbleViolet.svg"></ReactSVG>
-                <ReactSVG src="bubbleYellow.svg"></ReactSVG>
+            <div className="allImg">
+                <div className="rImg">
+                    <ReactSVG src={rupor}/>
+                </div>
+                <div className="bacAndBubbles">
+                    <div className="cloud">
+                        <ReactSVG className="bigCloud" src={bigCloud}/>
+                    </div>
+                    <div className="bubbles">
+                        <ReactSVG src={bubbleBlue}/>
+                        <ReactSVG src={bubbleRed}/>
+                        <ReactSVG src={bubbleViolet}/>
+                        <ReactSVG src={bubbleYellow}/>
+                    </div>
+                </div>
             </div>
-
         </>
     );
 }

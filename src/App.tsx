@@ -15,7 +15,7 @@ function App() {
               <span>+</span>
             </div>
             <div className="content">
-              <Informative />
+              <Informative/>
             </div>
           </div>
           <div className="item">
@@ -32,9 +32,10 @@ function App() {
               <h2>Красноречивость</h2>
               <span>+</span>
             </div>
-            <div className="content">
-              <Eloquence/>
-            </div>
+
+          </div>
+          <div className="content">
+            <Eloquence/>
           </div>
           <div className="item">
             <div className="title">
@@ -42,7 +43,6 @@ function App() {
               <span>+</span>
             </div>
             <div className="content">
-              <Emotionality/>
             </div>
           </div>
         </div>
