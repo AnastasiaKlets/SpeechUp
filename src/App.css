@@ -1,27 +1,10 @@
 .wrapper{
     display: flex;
-    height: 100vh;
-    width: 100vh;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-.accordion{
-    padding-left: 100px;
-    width: 100%;
-}
-.item{
-    background: #FFFFFF;
-    margin-bottom: 5px;
-    padding: 10px 20px;
-}
-.title{
-    color: #37476A;
-    width: 181px;
-    height: 31px;
 
-    font-family: 'Onest';
-    font-style: normal;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.wrapper > div{
+    width: 1216px;
 }

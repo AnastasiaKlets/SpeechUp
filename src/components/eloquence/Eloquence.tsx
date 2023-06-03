@@ -9,11 +9,14 @@ import './Eloquence.css'
 import bigCloud from './img/bigCloud.svg'
 
 function Eloquence() {
+    let infForEloquence = {
+        subtitle1: "Найдено излишнее количество слов-паразитов."
+    }
     return (
         <>
             <div className="text">
                 <p>
-
+                    {infForEloquence.subtitle1}
                 </p>
             </div>
             <div className="allImg">

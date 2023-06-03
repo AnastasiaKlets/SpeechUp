@@ -2,11 +2,16 @@ import React from 'react';
 import './Informative.css'
 
 function Informative() {
+    let infForInformative = {
+        subtitle1: "Доля неречевых звуков и слов-паразитов превышает допустимый порог.",
+        subtitle2: "Не хватает фактов и деталей для подтерждения высказанных аргументов."
+    }
+
     return (
         <>
             <div className="inf">
-                <p></p>
-                <p></p>
+                <p> {infForInformative.subtitle1}</p>
+                <p>{infForInformative.subtitle2}</p>
 
                 <div className="flex-container">
                     <div className="parasites">Слова-паразиты</div>

@@ -1,46 +1,33 @@
 import React from 'react';
 import { ReactSVG } from 'react-svg'
 import './Emotionality.css'
-import './img/ok.svg'
-import './img/happy.svg'
-import './img/angry.svg'
+import okImg from './img/ok.svg'
+import happyImg from './img/happy.svg'
+import angryImg from'./img/angry.svg'
 
 function Emotionality() {
+    let infForEmotionality = {
+        subtitle1: "Процент ваших эмоций в выступлении."
+    }
     return (
-
     <>
-        <div><p></p></div>
-        <div className="imgAll">
-            <div className="progressbar">
-                <ReactSVG className="img" src="angry.svg" />
-                <span className="span" style={{height: "15%" }}><ReactSVG src="angry.svg"/></span>
+        <div className="textEmotionality">
+            <p>
+                {infForEmotionality.subtitle1}
+            </p>
+        </div>
+        <div className="imgAllEmotionality">
+            <div className="angryImg">
+                <ReactSVG src={angryImg}/>
             </div>
-            <div className="progressbar">
-                <ReactSVG className="a1" src="angry.svg"/>
-                <span className="a2" style={{height: "85%"}}><ReactSVG src="angry.svg"/></span>
-
+            <div className="okImg">
+                <ReactSVG src={okImg}/>
             </div>
-            <div className="progressbar">
-                <ReactSVG className="img" src="ok.svg"/>
-                <span className="span" style={{height: "15%"}}><ReactSVG src="ok.svg"/></span>
-            </div>
-            <div className="progressbar">
-                <ReactSVG className="a1" src="ok.svg"/>
-                <span className="a2" style={{height: "85%"}}><ReactSVG src="ok.svg"/></span>
-
-            </div>
-            <div className="progressbar">
-                <ReactSVG className="img" src="happy.svg"/>
-                <span className="span" style={{height: "15%"}}><ReactSVG src="happy.svg"/></span>
-            </div>
-            <div className="progressbar">
-                <ReactSVG className="a1" src="happy.svg"/>
-                <span className="a2" style={{height: "85%"}}><ReactSVG src="happy.svg"/></span>
-
+            <div className="happyImg">
+                <ReactSVG  src={happyImg}/>
             </div>
         </div>
     </>
-    );
-}
+    );}
 
 export default Emotionality;
