@@ -31,4 +31,14 @@ svg.injected-svg {
         flex-direction: column;
         justify-content: center;
 }
+.text{
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        display: flex;
+        align-items: flex-start;
+        color: #7C8EB5;
+}
+
 

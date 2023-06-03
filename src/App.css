@@ -8,3 +8,13 @@
 .wrapper > div{
     width: 1216px;
 }
+
+.nameTopic{
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #37476A;
+    display: flex;
+    align-items: center;
+}

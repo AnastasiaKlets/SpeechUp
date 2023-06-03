@@ -8,7 +8,9 @@ function UnityOfStyl() {
     return (
         <>
             <div className="inf">
-                <p>{infForUnityOfStyl.subtitle1}</p>
+                <div className="text">
+                    <p>{infForUnityOfStyl.subtitle1}</p>
+                </div>
                 <div className="flex-container">
                     <div className="Pablic">Публицистический </div>
                     <div className="auther">Другие стили</div>

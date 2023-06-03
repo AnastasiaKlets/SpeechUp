@@ -1,0 +1,65 @@
+.textEmotionality{
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #7C8EB5;
+}
+.imgAllEmotionality{
+    display: flex;
+    justify-content: space-between;
+
+}
+.angryImg, .okImg, .happyImg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 16px;
+    width: 350px;
+    height: 108px;
+    background: #F7FAFF;
+    border-radius: 32px;
+}
+.pText{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #37476A;
+    display: flex;
+}
+.pPercent{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+progress {
+    border-radius: 7px;
+    width: 80px;
+    height: 76px;
+    transform: rotate(-90deg)
+}
+progress::-webkit-progress-bar {
+    background-color: transparent;
+    border-radius: 7px;
+}
+progress::-webkit-progress-value {
+    background: url('./img/happy.svg');
+    border-radius: 7px;
+}
+
+.imk1{
+    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 91%, black 0);
+}
+.imk2{
+    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 75%, black 0);
+}
+.imk3{
+    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 10%, black 0);
+}
+

@@ -10,9 +10,10 @@ function Informative() {
     return (
         <>
             <div className="inf">
-                <p> {infForInformative.subtitle1}</p>
-                <p>{infForInformative.subtitle2}</p>
-
+                <div className="text">
+                    <p> {infForInformative.subtitle1}</p>
+                    <p>{infForInformative.subtitle2}</p>
+                </div>
                 <div className="flex-container">
                     <div className="parasites">Слова-паразиты</div>
                     <div className="Non-speech">Неречевые звуки</div>
