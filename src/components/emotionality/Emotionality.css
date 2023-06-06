@@ -38,24 +38,11 @@
     font-size: 24px;
 }
 
-progress {
-    border-radius: 7px;
-    width: 80px;
-    height: 76px;
-    transform: rotate(-90deg)
-}
-progress::-webkit-progress-bar {
-    background-color: transparent;
-    border-radius: 7px;
-}
-progress::-webkit-progress-value {
-    background: url('./img/happy.svg');
-    border-radius: 7px;
-}
 
 .imk1{
     mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 91%, black 0);
 }
+
 .imk2{
     mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 75%, black 0);
 }
