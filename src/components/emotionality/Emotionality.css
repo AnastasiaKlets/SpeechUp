@@ -40,13 +40,37 @@
 
 
 .imk1{
-    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 91%, black 0);
+    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 1%, black 0);
 }
-
 .imk2{
-    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 75%, black 0);
+    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 10%, black 0);
 }
 .imk3{
-    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 10%, black 0);
+    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 20%, black 0);
+}
+.imk4{
+    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 30%, black 0);
+}
+.imk5{
+    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 40%, black 0);
+}
+.imk6{
+    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 50%, black 0);
+}
+.imk7{
+    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 60%, black 0);
+}
+.imk8{
+    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 70%, black 0);
+}
+
+.imk9{
+    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 80%, black 0);
+}
+.imk10{
+    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 90%, black 0);
+}
+.imk11{
+    mask-image: linear-gradient(rgba( 0, 0, 0, 0.5) 100%, black 0);
 }
 
